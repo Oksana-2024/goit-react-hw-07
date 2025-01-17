@@ -1,0 +1,17 @@
+.text {
+  margin-bottom: 6px;
+}
+.searchInput {
+    width: 400px;
+    border-radius: 4px;
+    height: 32px;
+    border: 1px solid #b6bab8;
+    transform: border 250ms ;
+    &:focus-visible{
+        border: 1px solid #646565;
+    }
+}
+
+.searchBox{
+    padding: 24px 0;
+}
